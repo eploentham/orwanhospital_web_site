@@ -10,10 +10,10 @@ $hostDB="localhost";
 $userDB="root";
 $passDB="";
 
-$conn = mysqli_connect($hostDB,$userDB,$passDB,$databaseName);
-mysqli_set_charset($conn, "UTF8");
-
-mysqli_close($conn);
+//$conn = mysqli_connect($hostDB,$userDB,$passDB,$databaseName);
+//mysqli_set_charset($conn, "UTF8");
+//
+//mysqli_close($conn);
 
 $directory = realpath(dirname(__FILE__));
 $document_root = realpath($_SERVER['DOCUMENT_ROOT']);
